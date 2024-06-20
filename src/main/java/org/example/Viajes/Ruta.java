@@ -43,7 +43,7 @@ public class Ruta extends Pasajero{
         super.mostrar_datos();
         precio_ruta();
         retorno_v();
-        System.out.println("Su precio es:"+ precio);
+        System.out.println("Su precio de la ruta es:"+ precio);
         System.out.println("Fecha de Ruta: "+ fecha_ruta);
         System.out.println("Viaje retornable: "+ retorno);
     }
