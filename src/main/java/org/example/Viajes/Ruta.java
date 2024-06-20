@@ -38,6 +38,7 @@ public class Ruta extends Pasajero{
         }
     }
 
+
     @Override
     public void mostrar_datos() {
         super.mostrar_datos();

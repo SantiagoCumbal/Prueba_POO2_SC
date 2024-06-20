@@ -38,14 +38,17 @@ public class VIP extends Servicio{
         precio = precio + PrecioVIP;
     }
 
-    public void PrecioMaleta(double precioMaleta) {
-        PrecioMaleta = 3* cantidad_maleta;
-        precio = precio + PrecioMaleta;
+    public void PrecioMaleta() {
+        if (cantidad_maleta>2) {
+            PrecioMaleta = 3 * cantidad_maleta;
+            precio = precio + PrecioMaleta;
+        }
     }
 
     @Override
     public void mostrar_datos() {
         super.mostrar_datos();
+        PrecioMaleta();
         System.out.println("Precio total: " + precio);
     }
 

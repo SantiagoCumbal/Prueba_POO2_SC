@@ -17,9 +17,24 @@ public class Normal extends Servicio{
     public void setPuesto(String puesto) {
         this.puesto = puesto;
     }
+    //Metodo
+
+
+
+    public void cargo_maleta() {
+        if (cantidad_maleta>1){
+            int cargo=cantidad_maleta*3;
+            precio=precio+cargo;
+        }
+    }
 
     @Override
     public void mostrar_datos() {
+
         super.mostrar_datos();
+        cargo_maleta();
+        System.out.println("Precio total: " + precio);
     }
+
+
 }
