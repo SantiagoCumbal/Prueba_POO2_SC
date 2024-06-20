@@ -33,7 +33,7 @@ public class VIP extends Servicio{
 
     //Mostrar datos
 
-    public void PrecioVIP(double precioVIP) {
+    public void PrecioVIP() {
         PrecioVIP = precio * (30/100);
         precio = precio + PrecioVIP;
     }
@@ -49,6 +49,7 @@ public class VIP extends Servicio{
     public void mostrar_datos() {
         super.mostrar_datos();
         PrecioMaleta();
+        PrecioVIP();
         System.out.println("Precio total: " + precio);
     }
 

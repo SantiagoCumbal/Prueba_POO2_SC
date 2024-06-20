@@ -28,5 +28,51 @@ public class Main {
         p3.setN_asiento(20);
         p3.mostrar_datos();
 
+        Ticket p6 = new Ticket();
+        p3.setNombre("Paul Cabrera");
+        p3.setCedula("1727660902");
+        p3.setPrecio(0);
+        p3.setTipo_ruta(2);
+        p3.setFecha_ruta("21/05/2021");
+        p3.setRetorno(true);
+        p3.setN_ticket(1465);
+        p3.setN_asiento(20);
+        p3.mostrar_datos();
+
+        Ticket p7 = new Ticket();
+        p3.setNombre("Adrian Cadena");
+        p3.setCedula("1727660902");
+        p3.setPrecio(0);
+        p3.setTipo_ruta(2);
+        p3.setFecha_ruta("21/05/2021");
+        p3.setRetorno(true);
+        p3.setN_ticket(1465);
+        p3.setN_asiento(20);
+        p3.mostrar_datos();
+
+
+        Ticket p8 = new Ticket();
+        p3.setNombre("Luis Medina");
+        p3.setCedula("1721559399 ");
+        p3.setPrecio(0);
+        p3.setTipo_ruta(2);
+        p3.setFecha_ruta("21/05/2021");
+        p3.setRetorno(true);
+        p3.setN_ticket(1465);
+        p3.setN_asiento(20);
+        p3.mostrar_datos();
+
+
+        Ticket p9 = new Ticket();
+        p3.setNombre("Juan Carlos bodoque");
+        p3.setCedula("1727660902");
+        p3.setPrecio(0);
+        p3.setTipo_ruta(2);
+        p3.setFecha_ruta("21/05/2021");
+        p3.setRetorno(true);
+        p3.setN_ticket(1465);
+        p3.setN_asiento(20);
+        p3.mostrar_datos();
+
     }
 }
